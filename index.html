@@ -1,0 +1,31 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/p5.dom.min.js"></script>
+  <script language="javascript" type="text/javascript" src="Forecast_audit_IA.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script>
+  <!-- This line removes any default padding and style.
+       You might only need one of these values set. -->
+  <style> body { padding: 0; margin: 0; } </style>
+</head>
+
+<body>
+
+  <div class="chart-container" style="position: absolute; top:24vh; left:0%; height:5%; width:49%">
+    <canvas id="chart"></canvas>
+</div>
+
+<div class="chart2-container" style="position: absolute; top:24vh; left:50%; height:5%; width:49%">
+    <canvas id="chart2"></canvas>
+</div>
+
+
+</body>
+</html>
